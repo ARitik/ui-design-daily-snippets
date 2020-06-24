@@ -1,0 +1,114 @@
+:root {
+    --bg: #EBEBF3;
+    --accent:#E45C8C;
+    --card:#fff;
+    --shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#notification {
+    font-family:'Poppins',sans-serif;
+    font-size:0.8em;
+    background:var(--accent);
+    color:var(--bg);
+    padding:8px 80px;
+    border-radius:40px;
+    margin-top:4em;
+}
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+}
+
+h4 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.6em;
+    color:#555;
+}
+
+.color-block-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color-block {
+    background-color:var(--bg);
+    margin:10px;
+    padding: 6px;
+    max-height:210px;
+    border-radius: 6px;
+    background-color: var(--card);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:var(--shadow);
+    cursor: pointer;
+    transition:transform 300ms ease-in-out;
+}
+
+
+
+.color-block > h5 {
+    margin:8px 0;
+    text-transform: uppercase;
+    font-family: 'Futura',sans-serif;
+    font-weight:400;
+    color:#666;
+}
+
+.color-block:hover {
+    transform: translateY(-4px);
+    box-shadow: 12px 8px 16px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+.color {
+    background-color:#AF4884;
+    height:220px;
+    width:130px;
+    border-radius: inherit;
+}
+
+.btn {
+    border:none;
+    margin-top:4em;
+    background-color: var(--accent);
+    padding:12px 80px;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    font-size:0.7em;
+    border-radius:4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.96);
+}
+
+.btn-info {
+    font-family: 'Poppins',sans-serif;
+    font-size:0.8em;
+}
+
+.note {
+    padding:10px 20px;
+    margin-top:4em;
+    background-color:white;
+    border-radius:20px;
+    font-family: 'Poppins',sans-serif;
+    font-size:0.7em;
+}
+
+.display {
+    transition:0.6s ease-in-out;
+    transform:translateY(-400px);
+}
