@@ -12,4 +12,4 @@ There are more than a thousand designs already posted on the website.
 
 1.  [Share Card](https://github.com/ARitik/ui-design-daily-snippets/tree/master/day_1115) : [Day_1115 on UI Design Daily](https://uidesigndaily.com/posts/sketch-share-card-modal-pop-up-day-1115)
 
-2. [Neumorphic UI Components]() : [Day_1071 on UI Design Daily](https://uidesigndaily.com/posts/sketch-neumorphic-ui-components-tab-button-day-1071)
+2. [Neumorphic UI Components](https://github.com/ARitik/ui-design-daily-snippets/tree/master/day_1071) : [Day_1071 on UI Design Daily](https://uidesigndaily.com/posts/sketch-neumorphic-ui-components-tab-button-day-1071)
