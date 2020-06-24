@@ -20,6 +20,7 @@ body {
 .card-container {
     height:370px;
     width:50%;
+    max-width:495px;
     background-color:var(--card-color) ;
     box-shadow:4px 12px 20px #8C919C70;
     border-radius:10px;
