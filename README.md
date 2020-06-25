@@ -15,3 +15,5 @@ There are more than a thousand designs already posted on the website.
 2. [Neumorphic UI Components](https://github.com/ARitik/ui-design-daily-snippets/tree/master/day_1071) : [Day_1071 on UI Design Daily](https://uidesigndaily.com/posts/sketch-neumorphic-ui-components-tab-button-day-1071)
 
 3. [Color Palette Generator](https://github.com/ARitik/ui-design-daily-snippets/tree/master/day_1114) : [Day_1114 on UI Design Daily](https://uidesigndaily.com/posts/sketch-color-palette-generator-picker--day-1114)  ⭐️  Contains JS Application Code for Color Palette Generation
+
+4. [Accordion]() : [Day_982 on UI Design Daily](https://uidesigndaily.com/posts/sketch-accordion-list-panel-day-982) ⭐️ Had to add JQuery because toggle was not working for toggling between i tag icons. Used toggleClass (jQuery) to fix the problem.

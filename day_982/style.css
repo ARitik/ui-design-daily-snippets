@@ -1,0 +1,95 @@
+:root {
+    --text: #777;
+    --font: 'Poppins',sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 0px 20%;
+    animation: 0.4s ease-out 0s 1 slideInFromTop;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: var(--font);
+}
+
+h5 {
+    color:var(--text);
+}
+
+p {
+    color:#777;
+    font-size:0.9em;
+}
+
+hr {
+    margin-top:20px;
+    border-top:1px solid rgb(221, 221, 221);
+    padding:0;
+}
+
+.accordion-toggler {
+    cursor: pointer;
+}
+
+
+.accordion-toggle {
+    border:none;
+    background-color: transparent;
+    color:var(--text);
+    font-size:0.95em;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.accordion-toggle:focus {
+    outline:none !important; 
+}
+
+.accordion-content {
+    overflow: hidden;
+    padding:0 1em;
+    max-height:0;
+    opacity:0;
+    transition: all 0.3s ease;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
+
+.read-more {
+    border: none;
+    padding:10px 15px;
+    border-radius:40px;
+    font-family: var(--font);
+    margin-top:14px;
+    cursor: pointer;
+    transition:all 0.1s ease-in-out;
+}
+
+.read-more:hover {
+    background-color: black;
+    color:white;
+}
+
+.accordion-open {
+    max-height:500px;
+    opacity:1;
+    padding:15px 20px;
+}
